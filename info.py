@@ -48,7 +48,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'pdfmalayalam2')
 
 #maximum search result buttos count in number#
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
-START_MESSAGE = environ.get('START_MESSAGE', 'hiya?? {user},\ni am {bot},\n\n<i>I Can Provide Malayalam, English Pdf stories/Novels In Telegram Groups. You Can Search Any PDFs Via Inline. I Can Also Add Filters In Telegram Groups. Just Add Me To Your Group And Enjoy</i>\n\n  pdf    .. ????\n\n<b>Made With  BY @VipinPkd </b>') # '👋 𝙷𝙴𝙻𝙾 {user}\n\n𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 {bot},\n𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽...')
+START_MESSAGE = environ.get('START_MESSAGE', 'hiya👋 {user},\ni am {bot},\n\n<i>I Can Provide Malayalam, English Pdf stories/Novels In Telegram Groups. You Can Search Any PDFs Via Inline. I Can Also Add Filters In Telegram Groups. Just Add Me To Your Group And Enjoy</i>\n\nനിങ്ങൾക്ക് ഇഷ്ടമുള്ള pdf കൾ ഇനി നിങ്ങളുടെ വിരൽത്തുമ്പിൽ.. 😍😍\n\n<b>Made With ❤ BY @VipinPkd </b>')
+                            
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ 𝙃𝙚𝙮 {query}! 𝙏𝙝𝙖𝙩'𝙨 𝙉𝙤𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪. 𝙋𝙡𝙚𝙖𝙨𝙚 𝙍𝙚𝙦𝙪𝙚𝙨𝙩 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣")
 FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', 'Join Our PDF Update Channel To Use This Bot')
 RemoveBG_API = environ.get("RemoveBG_API", "")

@@ -65,7 +65,8 @@ SHORT_API = environ.get("SHORT_API")
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
-# self delete setting 
+
+# self delete setting True if SELF_DELETE is On, False if Off
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
